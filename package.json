@@ -1,0 +1,16 @@
+{
+  "name": "prok1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel registr/registr.pug --open",
+    "build": "parcel build registr/registr.pug -d docs --public-url ./"
+  },
+  "repository": "https://github.com/davydikalex/prok1.git",
+  "author": "davydikalex <davydikalex@yandex.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "pug": "^2.0.4"
+  }
+}
